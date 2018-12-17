@@ -15,7 +15,7 @@ int main()
 	Mat originalImage;
 	vector<color> colors = { orange, blue };
 	int numColors = colors.size();
-	int numMatch = 3;
+	int numMatch = NUM_MATCH;
 	int matchCount;
 	vector<vector<Point2f> > momentCenters;
 	int i;

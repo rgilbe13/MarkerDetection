@@ -3,3 +3,4 @@
 #include <imageProcessing.h>
 
 Mat addDot(Mat img, vector<vector<Point2f> > points, vector<color> colors);
+void drawLines(Mat img, vector<vector<Point2f> > momentCenters);
